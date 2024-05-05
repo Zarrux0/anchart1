@@ -1,0 +1,198 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(./600x900.webp) ;
+    background-size: 450px ;
+    background-position: 0px 100px ;
+    background-position-x: center;
+}
+.logo{
+   color: white;
+}
+.logo samp{
+    color: orange;
+    font-size: 40px ;
+    position: relative;
+    bottom: -15px ;
+    left: 65px;
+}
+.logo2{
+    margin-top: 35px ;
+    margin-left: 15% ;
+    display: flex;
+    gap: 20px ;
+}
+.top{
+    width: 100% ;
+    height: 120px ;
+    /* transition: .3s; */
+    border-radius: 0px 0px 50px 50px ;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 9%, rgba(252,70,107,1) 100%);   
+}
+.Home{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50% ;
+}
+.Home i{
+    position: relative;
+    top: 10px ;
+    left: 15px ;
+    font-size: 40px ;
+}
+.About{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50% ;
+}
+.About i{
+    position: relative;
+    top: 10px ;
+    left: 15px ;
+    font-size: 40px ;
+}
+
+.Syujet{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50% ;
+}
+.Syujet i{
+    position: relative;
+    top: 10px ;
+    left: 15px ;
+    font-size: 40px ;
+}
+.button-box{
+    width: 100% ;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 600px ;
+    border-radius: 50px 50px 0px 0px  ;
+    /* transition: .3s ; */
+    animation-name: a ;
+    animation-duration: 2s ;
+}
+.button-box .box{
+    width: 300px  ;
+    height: 70px ;
+    background-color: blue;
+    margin: 15px 0px 0px 30px ;
+    border-radius: 50px 50px   ;
+    /* transition: .15s; */
+}
+@keyframes a{
+    0%{
+    background-color: rgb(0, 42, 255,0) ;
+    position: relative;
+    top: 1000px ;
+    }
+    100%{
+
+    }
+}
+.button-box .box h1{
+    color: white;
+    position: relative;
+    left: 90px ;
+    top: 10px;
+}
+.button-box .box h1 samp{
+    position: relative;
+    top: 4px;
+}
+
+
+
+.kino{
+    width: 300px ;
+    height: 150px ;
+    border: 2px solid  ;
+    margin-top: 100px ;
+    margin-left: 25px ;
+    background-color: black;
+    box-shadow: 0px 0px  ;
+}
+.kino p{
+    color: white;
+    margin-top: 50px ;
+    margin-left: 50px ;
+    font-size: 20px ;
+}
+.kino1 select{
+    margin-top: 20px ;
+    margin-left: 145px ;
+    width: 60px ;
+    height: 40px ;
+    font-size: 17px ;
+    border-radius: 15px ;
+    box-shadow: 4px 5px 8px  ;
+}
+.kino3 {
+    grid-template-columns: auto auto auto;
+    display: grid;
+    gap: 10px  ;
+    margin-top: 150px ;
+}
+.kino3 .box{
+    /* width: 100px ; */
+    height: 150px ;
+    background-color: black ;
+}
+textarea{
+    position: relative;
+    top: 50px ;
+    left: 40px ;
+}
+.kino3 .box p{
+    color: white;
+    margin-top: 50px ;
+    margin-left: 40px ;
+}
+.text{
+    margin-top: 50px ;
+    margin-left: 70px ;
+    width: 225px ;
+    border: 2px solid ;
+    background-color: black;
+}
+.text p{
+    text-align: center;
+    font-size: 18px ;
+    color: white;
+}
+.text span{
+    color: rgb(255, 255, 255);
+    font-size: 30px ;
+    margin-left: 0px ;
+}
+.text samp{
+    font-size: 20px ;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+.text span1{
+    color: rgb(255, 255, 255);
+    font-size: 30px ;
+    margin-left: 0px ;
+}
+.text smap1{
+    font-size: 20px ;
+}
+.text span2{
+    color: rgb(255, 255, 255);
+    font-size: 30px ;
+    margin-left: 0px ;
+}
+.text span3{
+    color: rgb(255, 255, 255);
+    font-size: 30px ;
+    margin-left: 0px ;
+}
